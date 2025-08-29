@@ -1,75 +1,24 @@
----
-layout: 2ColLeft
-title: Download
-sidebar: nav.html
----
+Creat a form page of an open source project tha do't requair a link address. Server or host domain simply oprate at locall device but active like a richtext offline editor.
+The form;- is a vcard editor interface for managing files and documents, that detail visible and open on click, able to upload, export,import and share at locall.
+The admin;- can edit, upload,import,export,share,allow user to registar and can modify the page.
 
-{% include anchor.html class="h3" title="Quick Start" hash="file" %}
+The admin team;- that will appllied by the admin will have a permission to manage and act, do activities on the title of their position. And the admin team have a profile that include the information, (Name, Age, Sex, position or title,email address, Region,Zone, Woreda, and Kebele)
 
-{% highlight html %}
-<script src="https://cdn.jsdelivr.net/npm/pouchdb@{{site.version}}/dist/pouchdb.min.js"></script>
-<script>
-  const db = new PouchDB('my_database');
-</script>
-{% endhighlight %}
+The form structure;- 
+The logo;- desplay on the top title bar of the form the name and logo of the page will be upload
 
-PouchDB can also be directly downloaded:
-
-* [pouchdb-{{ site.version }}.min.js][latest-min] (compressed for production)
-* [pouchdb-{{ site.version }}.js][latest] (uncompressed for debugging)
-
-If you are using PouchDB in Internet Explorer a [Promise](https://www.npmjs.com/package/promise-polyfill) and [Fetch](https://www.npmjs.com/package/whatwg-fetch) polyfill will be needed.
-
-{% include anchor.html class="h3" title="npm" hash="npm" %}
-
-PouchDB can be installed through [npm](https://npmjs.com):
-
-{% highlight bash %}npm install --save pouchdb{% endhighlight %}
-
-After installing, call `require()` to use it:
-
-{% highlight javascript %}
-const PouchDB = require('pouchdb');
-const db = new PouchDB('my_database');
-{% endhighlight %}
-
-PouchDB can be used either in Node or in the browser. A bundler such as [Browserify](https://browserify.org/), [Webpack](https://webpack.github.io/), or [Rollup](https://rollupjs.org/) is needed for browser usage.
-
-#### Browser only
-
-If you're only using PouchDB in the browser, you can use `pouchdb-browser` for
-faster install times:
-
-{% highlight bash %}npm install --save pouchdb-browser{% endhighlight %}
-
-{% highlight javascript %}
-const PouchDB = require('pouchdb-browser');
-const db = new PouchDB('my_database');
-{% endhighlight %}
-
-See [custom builds]({{ site.baseurl }}/custom.html) for more options.
-
-{% include anchor.html class="h3" title="CDNs" hash="cdn" %}
-
-PouchDB is hosted at these CDNs:
-
-* [cdnjs](https://cdnjs.com/libraries/pouchdb)
-* [jsdelivr](https://www.jsdelivr.com/#!pouchdb)
-* [unpkg](https://unpkg.com/pouchdb@{{ site.version }}/dist/)
-
-{% highlight bash %}bower install --save pouchdb{% endhighlight %}
-
-{% include anchor.html class="h3" title="Past releases" hash="past-releases" %}
-
-For past releases and changelog, check out the [Github releases page](https://github.com/pouchdb/pouchdb/releases).
-
-{% include anchor.html class="h3" title="Plugins" hash="plugins" %}
-
-For third-party plugins, see the [plugins page](/external.html).
-
-{% include anchor.html class="h3" title="Custom builds" hash="custom" %}
-
-For custom builds and first-party plugins, see the [custom builds]({{ site.baseurl }}/custom.html) page.
-
-[latest]: https://github.com/pouchdb/pouchdb/releases/download/{{ site.version }}/pouchdb-{{ site.version }}.js
-[latest-min]: https://github.com/pouchdb/pouchdb/releases/download/{{ site.version }}/pouchdb-{{ site.version }}.min.js
+ 1. Login form; is attached to the top of the page, that can oprate in offline state like a groove account or database and the subscriber will have access to the page to view,comment and give feedback to the admin
+2. Search engine; a navigation bar on the top mid of the form to type and search locall fiels and information from the page form.
+3. Placeholder;- dropout a list of task force as active plain text (Industry extension, Job creation, Institution capacity building, Marketing, Planning)
+4. Menu ;-  a button represented by a three row at the left corner of the page a place holder and vertical scroll  containing  a list of items, (about,the team profile and contacts.)
+5. Contents;- a horizontal scroll like slide containing a block of ( Data, Plan, Report, Checklist, Feedback, Guide,and Gallary) each block consists a list of item that dropout on click. 
+    The Data block;- dropout a list of items on click ( Basic, Demography, Fisical)
+   The Plan block;- dropout a list of items on click ( annual, strategic,BSC, seasonal)
+  The Report block;- dropout a list of items on click (monthly, weekly, annual, seasonal)
+  The Checklist block;- dropout a list of items on click (For customer, from client)
+  The Guied block;- dropout a list of items on click ( rules, regulation, scientific research, other)
+ 
+ The Galleryblock;- dropout a list of items on click ( image video)
+Dashboard; a place to edit and publish tasks desplay and view activities 
+Editor tools; insert basic word and image editor tools
+The footer of the page consist the name and address of the organization, as Woliyusite, Amhara Region, Oromo Zone, Dewe Harewa, Bora, Ethiopia and syncornise and insert the  link address associated with;- kemalmulatu19@gmail.com
